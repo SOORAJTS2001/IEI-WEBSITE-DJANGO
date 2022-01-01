@@ -1,0 +1,177 @@
+/* <img src="https://s10.gifyu.com/images/card-bg.png" alt="card-bg.png" border="0">
+<img src="https://s10.gifyu.com/images/card-bg1.png" alt="card-bg1.png" border="0">
+<img src="https://s10.gifyu.com/images/ipad-tablet-technology-touch.jpg" alt="ipad-tablet-technology-touch.jpg" border="0">
+<img src="https://s10.gifyu.com/images/person-female.png" alt="person-female.png" border="0">
+<img src="https://s10.gifyu.com/images/person-male.png" alt="person-male.png" border="0">
+<img src="https://s10.gifyu.com/images/tile-card-c4c.png" alt="tile-card-c4c.png" border="0"> */
+a{
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: var(--dark-grey);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:"Poppins", sans-serif;
+}
+
+:root{
+    --grey: #171819;
+    --dark-grey: #222;
+    --cream: #eee;
+    --white: #fff;
+    --orange: #f13a11;
+    --Monotype-Corsiva: 'Monotype Corsiva';
+    --poppins: 'Poppins';
+}
+
+body{
+    background-color: #eee;
+}
+
+/* ------------------Navigation Bar---------- */
+nav{
+    width: 100%;
+    background-color: var(--dark-grey);
+    text-align: center;
+}
+.logo{
+    height: 10rem;
+}
+
+ul{
+    width: 100%;
+}
+
+ul li{
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+
+ul li a {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #eee;
+    list-style: none;
+    display: block;
+    padding: 2rem;
+}
+
+ul li a:hover{
+    color: var(--orange);
+    text-decoration: none;
+}
+
+/* ------------------bg image------------------ */
+.overlay{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url("https://s10.gifyu.com/images/ipad-tablet-technology-touch.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading-text-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: var(--dark-grey);
+    opacity: 0.9;
+}
+
+.heading-text-container h2{
+    padding-top: 4rem;
+    color: #fff ;
+    font-family: 'OldeEnglish';
+    font-size: 10rem;
+    font-weight: 400;
+    line-height: 11rem;
+}
+
+.heading-text-container p{
+    color: #7f8c8d ;
+    font-size: 4rem;
+    font-family: var(--Monotype-Corsiva);
+    line-height: 5.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;    
+}
+
+/* ------------------container common------------------ */
+.container{
+    height: calc(60% - 25rem);
+    width: calc(100% - 10rem);
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+/* ------------------Title common------------------ */
+.title{
+    position: relative;
+    width: max-content;
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--grey);
+    line-height: 7rem;
+    text-decoration: none;
+    
+}
+
+
+
+/* ------------------About Us------------------ */
+.about .content{
+    padding-top: 4rem;
+    font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.8rem;
+}
+
+/* ------------------Upcoming Events------------------ */
+
+
+/* ------------------ Our Team ------------------ */
+.our-team{
+    height: auto;
+    padding: 4rem 5%;
+    display: inline-block;
+}
+
+.our-team h6{
+    padding: 4rem 0rem 2.8rem;
+    font-family:sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--white);
+    text-shadow: var(--dark-grey);
+
+}
+
+
+/* ------------------ Fonts ------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+	font-family: 'OldeEnglish';
+	src:url('fonts/OldeEnglish.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Monotype Corsiva';
+	src:url('fonts/MonotypeCorsiva_Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
