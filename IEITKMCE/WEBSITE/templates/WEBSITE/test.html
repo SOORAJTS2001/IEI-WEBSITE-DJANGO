@@ -1,0 +1,19 @@
+{%extends 'WEBSITE/admin-login.html'%}
+{%load crispy_forms_tags %}
+<html>
+<head>
+<title>TEST IEI TKMCE</title>
+        <link rel="icon" href="https://s10.gifyu.com/images/IEI-2.png" type="image/icon type">
+
+</head>
+<body>
+<form method="post" class="col-md-4">
+        <div class="container">
+            {% csrf_token %}
+        {{form|crispy}}
+        <br>
+        <button type="submit" class="btn btn-primary" method='post'>Submit</button>
+    </div>
+    </form>
+    </body>
+</html>
